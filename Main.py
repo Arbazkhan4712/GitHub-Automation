@@ -1,6 +1,7 @@
 from selenium import webdriver
 from time import sleep
 from pass import pw,uname
+import sys
 
 class github:
     def __init__(self, username, pw, pname):
@@ -34,5 +35,6 @@ class github:
 
        
         
-
-github(uname,pw,'test automation2')
+        
+pname = sys.argv[1]
+github(uname,pw,pname)
