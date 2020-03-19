@@ -15,6 +15,13 @@ Selenium
 ```
 pip install selenium
 ```
+## Add Username & Password in pass.py file:
+
+```
+uname = "Your github user name"
+
+pw = "Your github password"
+```
 
 ## Run:
 
