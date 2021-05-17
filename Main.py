@@ -25,7 +25,7 @@ class github:
         self.driver.find_element_by_xpath("//button[normalize-space()='Create repository']")\
             .click()
         sleep(2)
-        self.driver.find_element_by_xpath("//summary[@aria-label='View profile and more']//span[@class='dropdown-caret']"\
+        self.driver.find_element_by_xpath("//summary[@aria-label='View profile and more']//span[@class='dropdown-caret']")\
             .click()
         sleep(2)
         self.driver.find_element_by_xpath("//button[@class='dropdown-item dropdown-signout']")\
