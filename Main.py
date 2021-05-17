@@ -1,7 +1,6 @@
 from selenium import webdriver
 from time import sleep
-from pass import pw,uname
-import sys
+import os, sys
 
 class github:
     def __init__(self, username, pw, pname, path):
@@ -34,6 +33,9 @@ class github:
 
        
         
-        
+scpath = "../GitHub-Automation/"
+sys.path.append(os.path.abspath(scpath))
+from pass import uname, pw, path
+
 pname = sys.argv[1]
 github(uname,pw,pname,path)
